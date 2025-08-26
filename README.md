@@ -10,8 +10,8 @@ robot-framework-demo/
 │   └── CommonKeywords.robot
 ├── Results/
 ├── Tests/
-│   ├── login_tests.robot
-│   └── navigation_tests.robot
+│   ├── navigation.robot
+│   └── ebook_quantity.robot
 ├── venv/
 │   ├── Include/
 │   ├── Lib/

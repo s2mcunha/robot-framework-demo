@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.2 on win32)" generated="2025-08-26T06:46:37.913586" rpa="false" schemaversion="5">
+<suite id="s1" name="Navigation" source="C:\Portfolio\robot-framework-demo\Tests\navigation.robot">
+<kw name="Open Browser To QA Testing Hub" type="SETUP">
+<msg time="2025-08-26T06:46:38.218749" level="FAIL">No keyword with name 'Open Browser To QA Testing Hub' found. Did you try using keyword 'SeleniumLibrary.Open Browser' and forgot to use enough whitespace between keyword and arguments?</msg>
+<status status="FAIL" start="2025-08-26T06:46:38.218645" elapsed="0.000181">No keyword with name 'Open Browser To QA Testing Hub' found. Did you try using keyword 'SeleniumLibrary.Open Browser' and forgot to use enough whitespace between keyword and arguments?</status>
+</kw>
+<test id="s1-t1" name="Navigate To Home Page And Verify Text" line="11">
+<status status="FAIL" start="2025-08-26T06:46:38.218994" elapsed="0.000683">Parent suite setup failed:
+No keyword with name 'Open Browser To QA Testing Hub' found. Did you try using keyword 'SeleniumLibrary.Open Browser' and forgot to use enough whitespace between keyword and arguments?</status>
+</test>
+<test id="s1-t2" name="Navigate To News Page And Verify Text" line="15">
+<status status="FAIL" start="2025-08-26T06:46:38.220863" elapsed="0.001058">Parent suite setup failed:
+No keyword with name 'Open Browser To QA Testing Hub' found. Did you try using keyword 'SeleniumLibrary.Open Browser' and forgot to use enough whitespace between keyword and arguments?</status>
+</test>
+<test id="s1-t3" name="Navigate To E-books Page And Verify Text" line="19">
+<status status="FAIL" start="2025-08-26T06:46:38.223023" elapsed="0.000611">Parent suite setup failed:
+No keyword with name 'Open Browser To QA Testing Hub' found. Did you try using keyword 'SeleniumLibrary.Open Browser' and forgot to use enough whitespace between keyword and arguments?</status>
+</test>
+<test id="s1-t4" name="Navigate To Blog Page And Verify Text" line="23">
+<status status="FAIL" start="2025-08-26T06:46:38.224454" elapsed="0.000647">Parent suite setup failed:
+No keyword with name 'Open Browser To QA Testing Hub' found. Did you try using keyword 'SeleniumLibrary.Open Browser' and forgot to use enough whitespace between keyword and arguments?</status>
+</test>
+<test id="s1-t5" name="Navigate To Events Page And Verify Text" line="27">
+<status status="FAIL" start="2025-08-26T06:46:38.225820" elapsed="0.000768">Parent suite setup failed:
+No keyword with name 'Open Browser To QA Testing Hub' found. Did you try using keyword 'SeleniumLibrary.Open Browser' and forgot to use enough whitespace between keyword and arguments?</status>
+</test>
+<test id="s1-t6" name="Navigate To Contact Page And Verify Text" line="31">
+<status status="FAIL" start="2025-08-26T06:46:38.227318" elapsed="0.000480">Parent suite setup failed:
+No keyword with name 'Open Browser To QA Testing Hub' found. Did you try using keyword 'SeleniumLibrary.Open Browser' and forgot to use enough whitespace between keyword and arguments?</status>
+</test>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-08-26T06:46:38.229217" elapsed="0.000389"/>
+</kw>
+<status status="FAIL" start="2025-08-26T06:46:37.918076" elapsed="0.311654">Suite setup failed:
+No keyword with name 'Open Browser To QA Testing Hub' found. Did you try using keyword 'SeleniumLibrary.Open Browser' and forgot to use enough whitespace between keyword and arguments?</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="6" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Navigation" id="s1" pass="0" fail="6" skip="0">Navigation</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-08-26T06:46:38.213481" level="ERROR">Error in file 'C:\Portfolio\robot-framework-demo\Tests\navigation.robot' on line 3: Processing variable file 'Variables/variables.robot' failed: Importing variable file 'Variables/variables.robot' failed: ModuleNotFoundError: No module named 'Variables/variables'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Portfolio\robot-framework-demo\venv\Scripts\robot.exe
+  C:\Users\s2mcu\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\s2mcu\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\s2mcu\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\s2mcu\AppData\Local\Programs\Python\Python313
+  C:\Portfolio\robot-framework-demo\venv
+  C:\Portfolio\robot-framework-demo\venv\Lib\site-packages</msg>
+<msg time="2025-08-26T06:46:38.214436" level="ERROR">Error in file 'C:\Portfolio\robot-framework-demo\Tests\navigation.robot' on line 4: Resource file 'Resources\CommonKeywords.robot' does not exist.</msg>
+<msg time="2025-08-26T06:46:38.215094" level="ERROR">Error in file 'C:\Portfolio\robot-framework-demo\Tests\navigation.robot' on line 5: Resource file 'Resources\PageObjects\menu_page.robot' does not exist.</msg>
+</errors>
+</robot>
